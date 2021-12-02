@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fcfcfc !important;
+}
+.global-container {
+  max-width: 1300px;
+}
+.global-btn {
+  padding: 10px 30px;
+  border: none;
+  background-color: black;
+  box-shadow: 3px 3px 20px rgb(0 0 0);
+  color: #fff;
+  border-radius: 7px;
+  text-decoration: none;
+  transition: all 0.7s;
+}
+.global-btn:hover {
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+}
+.global-link {
+  text-decoration: none;
+  color: black;
+}
+.global-link:hover {
+  color: black;
+}
+.accordion-button {
+  display: none;
+}
+.accordion-button::after {
+  display: none !important;
+}

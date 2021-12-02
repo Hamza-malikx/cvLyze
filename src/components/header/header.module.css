@@ -1,0 +1,38 @@
+.logo {
+  font-family: "Ribeye", cursive;
+}
+.header {
+  background-color: black;
+}
+.signInBtn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 22px;
+  text-decoration: none;
+  /* width: 98px;
+  height: 42px; */
+  box-shadow: 2px 2px 6px rgb(255 255 255/75%);
+}
+.signInBtn:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.7s;
+}
+.signUpBtn {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  border-radius: 5px;
+  /* width: 98px;
+  height: 42px; */
+  padding: 8px 22px;
+  text-decoration: none;
+  box-shadow: 2px 2px 6px rgb(255 255 255/75%);
+}
+.signUpBtn:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.7s;
+}

@@ -1,0 +1,25 @@
+.hero {
+  font-family: "Poppins", sans-serif;
+  padding: 80px 5px 30px;
+}
+.heroContentHeading {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 30px;
+}
+.heroContentHeading span {
+  color: #04b200;
+}
+.heroImg {
+  max-width: 100%;
+  max-height: auto;
+}
+.heroContentPara {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #9a9a9a;
+  padding-right: 40px;
+  margin-bottom: 30px;
+}

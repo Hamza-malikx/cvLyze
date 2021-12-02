@@ -1,0 +1,14 @@
+.progressBarStepSect {
+  position: relative;
+}
+.progressBarStepSubSect {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+}
+.brevityProgress {
+  border-radius: none !important;
+}
+.progressBar {
+  border-radius: 1px !important;
+}

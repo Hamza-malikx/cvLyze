@@ -1,0 +1,147 @@
+.signIn {
+  font-family: "Poppins", sans-serif;
+  padding: 20px 20px;
+}
+.logo {
+  font-family: "Ribeye", cursive;
+}
+.signInSection {
+  padding: 0px 20px 20px 40px;
+}
+
+.signInForm {
+  font-family: "Poppins", sans-serif;
+
+  /* width: 320px; */
+  padding-top: 60px;
+}
+.signInHeading {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  font-size: normal;
+  margin-bottom: 20px;
+}
+.signInContent {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.regSpan {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.loginField {
+  padding: 20px 0px;
+  position: relative;
+}
+.label {
+  display: block;
+}
+.loginIcon {
+  position: absolute;
+  top: 59px;
+  left: 0;
+}
+.showHidePass {
+  position: absolute;
+  top: 65px;
+  right: 0;
+  cursor: pointer;
+}
+.loginInput {
+  border: none;
+  border-bottom: 2px solid #999999;
+  background: none;
+  padding: 10px;
+  padding-left: 24px;
+  font-weight: 400;
+  width: 100%;
+  transition: 0.2s;
+  outline: none;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.loginInput::placeholder {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+.loginInput:active,
+.loginInput:focus,
+.loginInput:hover {
+  outline: none;
+  border-bottom-color: black;
+}
+.RememberMeText {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+.ForgotPass {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #4d4d4d;
+  margin-top: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.signInBtn {
+  background-color: black;
+  border: none;
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+  padding: 15px 60px;
+  width: 100%;
+  border-radius: 32px;
+}
+.signInBtn:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+.signInRigntContent {
+  background-color: black;
+  max-width: 735px;
+  min-height: 800px;
+  border-radius: 10px;
+}
+.signInRigntContentImage {
+  width: 100%;
+  height: auto;
+}
+.signInRigntContentContent {
+  padding: 75px 35px 35px;
+}
+.signInRigntContentHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.signInRigntContentPara {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #999999;
+}

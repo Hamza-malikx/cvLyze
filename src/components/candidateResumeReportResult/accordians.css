@@ -1,0 +1,25 @@
+.accordion-header button {
+  background-color: #384347;
+}
+.accordion-header button h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.135em;
+  color: rgba(255, 255, 255, 69%);
+}
+.accordion-header button:focus,
+.accordion-header button:active,
+.accordion-header button:visited {
+  background-color: rgb(22, 22, 22);
+  outline: none;
+  border-color: none;
+  box-shadow: none;
+}
+.accordion-header button:not(.collapsed) {
+  color: rgba(255, 255, 255, 89%);
+  background-color: rgb(22, 22, 22);
+  box-shadow: none;
+}

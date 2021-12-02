@@ -1,0 +1,109 @@
+.dropZoneSect {
+  margin: 40px 0;
+  padding: 60px 0;
+  font-family: "Mulish", sans-serif;
+}
+.DropZoneMidImg {
+  margin: 0px 0px 20px;
+}
+.dragZoneHeading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.135em;
+}
+.dropZoneContent {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #848484;
+}
+.clickHereBtn {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #848484;
+}
+.pasteBtn {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #848484;
+}
+.DropZoneRightImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.ToastContainer {
+  top: 60px !important;
+}
+.textArea {
+  position: relative;
+}
+.closeBtn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: -28px;
+  right: 2px;
+}
+.closeBtn img {
+  width: 20px;
+  height: 20px;
+}
+.closeBtn img:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: all 0.7s;
+}
+.ResumeReportHeader {
+  margin: 20px 0 6px;
+  text-align: center;
+}
+.ResumeReportList {
+  text-align: center;
+}
+
+.ResumeReportList li {
+  text-align: center;
+  list-style-type: none;
+}
+
+/* .back {
+  background-color: #fad9c1;
+  margin-top: 4px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 6px 30px;
+  position: absolute;
+  top: -45px;
+  right: 0;
+}
+.back:hover {
+  background-color: transparent;
+  border: 1px solid rgb(230, 139, 152);
+  color: rgb(230, 139, 152);
+} */
+.form {
+  z-index: 999;
+}
